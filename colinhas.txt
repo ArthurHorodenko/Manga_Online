@@ -1,0 +1,18 @@
+Tags uteis
+    <H1> = Tag para criar titulo
+    <H2> = Sub titulo
+    <p> = Paragrafo
+    <strong> = Negrito
+    <i> = Italico 
+    <br> = Pular linhas
+
+    Tags de marcação
+      <main> = Tag principal da estrtura da tag body
+        <footer> = Rodapé da pagina
+        <section> = Dividir o código
+        <div> =  Dividir o código
+        <img> = Tags para imagem
+
+COMENTÁRIOS
+
+    <!--MEU COMENTÁRIO-->    html
