@@ -102,8 +102,57 @@ body{
     color: #888; /*Muda a cor do texto do botão desativado*/
 }
 
-.page{
+.page-counter{
     font-size: 0.9rem;
     color: #ffff;
     font-family: 'Isometra', sans-serif;
-}   
+}
+
+/*SMARTPHONES*/
+@media (max-width: 768px) {
+
+    body{
+        padding: 10px ;
+    }
+
+    .h1{
+        font-size: 1.3rem;
+    }
+
+    .controls{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btn{
+        flex: 1;
+        min-width: 120px;
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    .page-counter{
+        width: 100%;
+        text-align: center;
+        order: -1;
+    }
+}
+
+/*Celulares Antigos*/
+@media (max-width: 480px) {
+
+    .h1{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 0.85rem;
+        padding: 10px;
+    }
+
+    .page-counter{
+        font-size: 0.85rem;
+    }
+
+}
