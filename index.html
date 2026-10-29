@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,27 +9,31 @@
 </head>
 <body>
     <header class="header">
-        <!--1 STEP - BANNER-->
+        <!-- 1 STEP - BANNER -->
         <div class="banner-container">
             <img src="./assets/dragonballbanner.jpg" alt="Banner do Dragon Ball">
         </div>
 
-        <!--2 STEP- TITULO-->
-        <H1 class="h1"> <strong>Dragon Ball - Volume 1</strong></H1>
+        <!-- 2 STEP - TITULO -->
+        <h1 class="h1">
+            <strong>Dragon Ball - Volume 1</strong>
+        </h1>
     </header>
-    <main class="reader-container">
 
-        <!--3 STEP IMAGE OF CURRENT PAGE-->
+    <main class="reader-container">
+        <!-- 3 STEP - IMAGE OF CURRENT PAGE -->
         <div class="pager-wrapper">
-            <img src="./Assets/dragon-ball-vol-1-s Capa.jpg" alt="Capa do Dragon Ball - Vol. 1">
+            <img id="manga-page" src="./Assets/dragon-ball-vol-1-s Capa.jpg" alt="Capa do Dragon Ball - Vol. 1">
         </div>
-        
-        <!--4 STEP - CONTROL PANEL-->
+
+        <!-- 4 STEP - CONTROL PANEL -->
         <div class="controls">
-            <button class="btn">Anterior</button>
-            <span class="page-counter">Página 1 de 31</span>
-            <button class="btn">Próxima</button>
+            <button id="btn-prev" class="btn">Anterior</button>
+            <span id="page-counter" class="page-counter">Página 1 de 32</span>
+            <button id="btn-next" class="btn">Próxima</button>
         </div>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -16,3 +16,50 @@ Tags uteis
 COMENTÁRIOS
 
     <!--MEU COMENTÁRIO-->    html
+
+
+
+
+    //variaveis
+
+    //intergers-int
+    let idade = 15
+
+    //strings- str
+    const nome = "Arthur"
+
+    //bolean - bool
+    let estaLogado = true
+
+    // arrays e objetos. exemplo: console.log(time7[4])
+        let supermercado = [
+            "feijao",
+            "tang",
+            "coca-cola",
+            "picanha",
+            "arroz",
+        ]
+
+        let produtos = {
+            nome: "picanha",
+            preco: 70,
+            validade: true
+        }
+
+    // funcoes, metodos e como funciona
+    function somar (a, b) {
+        let resultado = a + b
+        return resultado
+    }
+
+     console.log(x)
+
+    //arrow function
+        let x = somar (45, 48)
+
+    let sub = (a, b) => {
+        let resultado = a - b
+        return resultado
+    }
+
+    let y =sub (200, 15)
